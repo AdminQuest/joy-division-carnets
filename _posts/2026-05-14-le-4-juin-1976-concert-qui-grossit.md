@@ -9,6 +9,9 @@ series: "Interzone Notes"
 rag_origin: "RAG 3 + RAG 4"
 source_status: "issu du RAG principal, vérifié manuellement"
 verification_status: "citations non intégrées ; faits et témoignages à vérifier avant publication définitive"
+image: "/public/images/lesser-free-trade-hall.jpg"
+image_alt: "Vue du Lesser Free Trade Hall à Manchester"
+image_caption: "Lesser Free Trade Hall, Manchester. Crédit à compléter."
 ---
 
 Le 4 juin 1976, les Sex Pistols jouent au Lesser Free Trade Hall de Manchester. Le fait est modeste. Une salle, un public réduit, un groupe londonien encore loin de sa pleine canonisation. Rien, dans la matérialité immédiate de l’événement, ne suffit à expliquer la charge presque sacrée que ce concert acquiert ensuite dans l’histoire mancunienne.
