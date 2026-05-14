@@ -1,15 +1,23 @@
 ---
 layout: default
 title: Accueil
-description: "Index des articles des Carnets du son de l’éternel."
+description: "Index bilingue des articles des Carnets du son de l’éternel."
 ---
 
 <div class="blog-grid">
   <section class="panel" aria-labelledby="articles-recents">
-    <h2 id="articles-recents">Articles récents</h2>
+    <h2 id="articles-recents">Carnet de notes préparatoire</h2>
+    <p class="lead">Ce site réunit des billets de travail de Fabrice Ribet autour de Joy Division. Ils préfigurent la publication du livre <em>Joy Division, le son de l’éternel</em> : chaque note teste un angle, une scène, une source ou une prudence historiographique.</p>
 
-    {% if site.posts.size > 0 %}
-      {% for post in site.posts %}
+    <div class="language-switch">
+      <a href="#fr">Français</a>
+      <a href="#en">English</a>
+    </div>
+
+    <h2 id="fr">Billets en français</h2>
+    {% assign fr_posts = site.posts | where: "lang", "fr" %}
+    {% if fr_posts.size > 0 %}
+      {% for post in fr_posts %}
         <article class="post-card">
           {% if post.image %}
             <a href="{{ post.url | relative_url }}" class="post-card-image-link">
@@ -19,6 +27,7 @@ description: "Index des articles des Carnets du son de l’éternel."
           <p class="meta">{{ post.date | date: "%d/%m/%Y" }}{% if post.format %} · {{ post.format }}{% endif %}{% if post.series %} · {{ post.series }}{% endif %}</p>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+          {% if post.translation_url %}<p class="translation-link"><a href="{{ post.translation_url | relative_url }}">Lire en anglais</a></p>{% endif %}
           {% if post.tags %}
             <div class="taglist">
               {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
@@ -27,14 +36,40 @@ description: "Index des articles des Carnets du son de l’éternel."
         </article>
       {% endfor %}
     {% else %}
-      <p class="empty">Aucun article publié pour le moment. Les premiers textes seront ajoutés dans <code>_posts/</code>.</p>
+      <p class="empty">Aucun billet en français pour le moment.</p>
+    {% endif %}
+
+    <h2 id="en">Posts in English</h2>
+    {% assign en_posts = site.posts | where: "lang", "en" %}
+    {% if en_posts.size > 0 %}
+      {% for post in en_posts %}
+        <article class="post-card">
+          {% if post.image %}
+            <a href="{{ post.url | relative_url }}" class="post-card-image-link">
+              <img class="post-card-image" src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}">
+            </a>
+          {% endif %}
+          <p class="meta">{{ post.date | date: "%d/%m/%Y" }}{% if post.format %} · {{ post.format }}{% endif %}{% if post.series %} · {{ post.series }}{% endif %}</p>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+          {% if post.translation_url %}<p class="translation-link"><a href="{{ post.translation_url | relative_url }}">Lire en français</a></p>{% endif %}
+          {% if post.tags %}
+            <div class="taglist">
+              {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+            </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    {% else %}
+      <p class="empty">No English post yet.</p>
     {% endif %}
   </section>
 
   <aside class="sidebar" aria-labelledby="mode-emploi">
     <h2 id="mode-emploi">Mode d’emploi</h2>
     <p>Les textes publiés ici sont produits à partir du RAG principal, puis vérifiés avant publication.</p>
-    <p>Un article traite un angle précis : une scène, un objet, un mythe, une tension documentaire.</p>
+    <p>Chaque billet existe en français et en anglais lorsque les deux versions sont prêtes. Les fichiers sont distincts, mais reliés par un lien de traduction.</p>
+    <p>Longueur cible : environ 5 000 caractères par langue.</p>
     <div class="taglist">
       <span class="tag">note critique</span>
       <span class="tag">étude courte</span>
