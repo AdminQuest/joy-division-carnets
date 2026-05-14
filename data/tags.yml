@@ -1,0 +1,38 @@
+# Tags éditoriaux publics.
+# Ce fichier ne remplace pas les registres du dépôt principal.
+
+principaux:
+  - Joy Division
+  - Manchester
+  - post-punk
+  - Factory Records
+  - Ian Curtis
+  - Peter Hook
+  - Bernard Sumner
+  - Stephen Morris
+  - Martin Hannett
+  - Tony Wilson
+  - Rob Gretton
+  - Peter Saville
+
+objets:
+  - album
+  - chanson
+  - bootleg
+  - concert
+  - pochette
+  - fanzine
+  - lieu
+  - archive
+  - session studio
+
+angles:
+  - mythe
+  - controverse
+  - esthétique
+  - historiographie
+  - réception
+  - géographie émotionnelle
+  - désindustrialisation
+  - mémoire
+  - archive sauvage
