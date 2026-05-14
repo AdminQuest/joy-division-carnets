@@ -1,0 +1,19 @@
+# Séries éditoriales publiques.
+# Les séries servent à organiser les articles du site.
+
+series:
+  - id: interzone-notes
+    titre: "Interzone Notes"
+    fonction: "Notes sur les origines, Manchester, Warsaw, les scènes fondatrices et les premières bifurcations."
+
+  - id: transmission
+    titre: "Transmission"
+    fonction: "Articles sur la diffusion, l’héritage, les reprises, les bootlegs et les circulations internationales."
+
+  - id: closer-studies
+    titre: "Closer Studies"
+    fonction: "Études critiques plus longues sur l’esthétique, les textes, la production et la réception."
+
+  - id: archive-sauvage
+    titre: "Archive sauvage"
+    fonction: "Fiches consacrées aux bootlegs, objets discographiques, traces et documents périphériques."
