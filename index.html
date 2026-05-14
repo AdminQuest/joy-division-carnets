@@ -4,15 +4,16 @@ title: Accueil
 description: "Index thématique des articles des Carnets du son de l’éternel."
 ---
 
+{% assign visible_posts = site.posts | where: "lang", "fr" %}
+
 <div class="blog-grid">
   <section class="panel" aria-labelledby="carnet-notes">
     <h2 id="carnet-notes">Carnet de notes préparatoire</h2>
     <p class="lead">Ce site réunit des billets de travail de Fabrice Ribet autour de Joy Division. Ils préfigurent la publication du livre <em>Joy Division, le son de l’éternel</em> : chaque note teste un angle, une scène, une source ou une prudence historiographique.</p>
 
-    <p>La page d’accueil ne fonctionne pas comme un flux chronologique. Les articles sont rangés par thématique. Pour éviter les doublons, seule une version principale apparaît dans l’index ; le lien vers l’autre langue est proposé depuis la notice et depuis l’article.</p>
+    <p class="index-version">Index thématique — version du 14 mai 2026.</p>
 
-    {% assign main_posts = site.posts | where_exp: "post", "post.index != false" %}
-    {% assign visible_posts = main_posts | where_exp: "post", "post.lang == 'fr' or post.primary_lang == true" %}
+    <p>Cette page n’est pas un flux chronologique. Les articles sont classés par thèmes. Pour éviter les doublons, seule la version française apparaît dans l’index principal ; la version anglaise reste accessible depuis chaque article.</p>
 
     {% if visible_posts.size > 0 %}
       <h2 id="articles">Articles publiés</h2>
@@ -23,18 +24,10 @@ description: "Index thématique des articles des Carnets du son de l’éternel.
               <img class="post-card-image" src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title }}">
             </a>
           {% endif %}
-          <p class="meta">{{ post.format }}{% if post.series %} · {{ post.series }}{% endif %}{% if post.theme %} · {{ post.theme }}{% endif %}</p>
+          <p class="meta">{{ post.theme }}{% if post.format %} · {{ post.format }}{% endif %}{% if post.series %} · {{ post.series }}{% endif %}</p>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-          {% if post.translation_url %}
-            <p class="translation-link">
-              {% if post.lang == "fr" %}
-                <a href="{{ post.translation_url | relative_url }}">Lire en anglais</a>
-              {% else %}
-                <a href="{{ post.translation_url | relative_url }}">Lire en français</a>
-              {% endif %}
-            </p>
-          {% endif %}
+          {% if post.translation_url %}<p class="translation-link"><a href="{{ post.translation_url | relative_url }}">Lire en anglais</a></p>{% endif %}
           {% if post.tags %}
             <div class="taglist">
               {% for tag in post.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
@@ -53,110 +46,70 @@ description: "Index thématique des articles des Carnets du son de l’éternel.
     <div class="theme-block">
       <h3>Manchester, Salford, territoire</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Manchester, Salford, territoire" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Manchester, Salford, territoire" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Scènes fondatrices</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Scènes fondatrices" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Scènes fondatrices" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Son, production, instruments</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Son, production, instruments" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Son, production, instruments" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Disques et objets</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Disques et objets" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Disques et objets" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Ian Curtis, textes, voix</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Ian Curtis, textes, voix" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Ian Curtis, textes, voix" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Factory, images, médiateurs</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Factory, images, médiateurs" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Factory, images, médiateurs" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Réception, presse, fanzines</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Réception, presse, fanzines" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Réception, presse, fanzines" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Bootlegs et archives sauvages</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Bootlegs et archives sauvages" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Bootlegs et archives sauvages" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Héritages et culture contemporaine</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Héritages et culture contemporaine" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Héritages et culture contemporaine" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
 
     <div class="theme-block">
       <h3>Méthode et historiographie</h3>
       <ul>
-        {% for post in visible_posts %}
-          {% if post.theme == "Méthode et historiographie" %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+        {% for post in visible_posts %}{% if post.theme == "Méthode et historiographie" %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
       </ul>
     </div>
   </aside>
