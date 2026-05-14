@@ -65,6 +65,44 @@ h3 a:hover {
   color: #2b2b2b;
 }
 
+.author-line {
+  max-width: 780px;
+  color: #2f2f2f;
+  font-size: 1rem;
+  margin: 1rem 0 0;
+}
+
+.language-note {
+  margin-top: 1.2rem;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.language-switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.language-switch a,
+.translation-link a {
+  display: inline-block;
+  color: var(--ink);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: .28rem .65rem;
+  background: #efe7da;
+  font-size: .9rem;
+}
+
+.language-switch a:hover,
+.translation-link a:hover {
+  text-decoration: underline;
+}
+
 nav {
   margin-top: 2rem;
   display: flex;
