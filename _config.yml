@@ -1,0 +1,20 @@
+title: "Les Carnets du son de l’éternel"
+description: "Notes critiques, archives et études autour de Joy Division."
+lang: fr
+url: "https://adminquest.github.io"
+baseurl: "/joy-division-carnets"
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+collections:
+  pages:
+    output: true
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - drafts/
+  - templates/
+  - scripts/
