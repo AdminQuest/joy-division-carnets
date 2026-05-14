@@ -1,6 +1,9 @@
 ---
 layout: post
 lang: fr
+index: true
+primary_lang: true
+theme: "Scènes fondatrices"
 title: "Le 4 juin 1976 : le concert qui grossit avec le temps"
 date: 2026-05-14
 description: "Comment un concert punk modeste devient une scène fondatrice de la mythologie mancunienne, sans expliquer à lui seul la naissance de Joy Division."
