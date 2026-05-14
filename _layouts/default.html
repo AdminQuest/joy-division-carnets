@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,7 @@
       <div class="kicker">Joy Division · post-punk · archives · historiographie</div>
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <p class="intro">{{ site.description }}</p>
+      <p class="author-line">Carnet de notes de Fabrice Ribet, en amont de la publication du livre <em>Joy Division, le son de l’éternel</em>.</p>
       <nav>
         <a href="{{ '/' | relative_url }}">Accueil</a>
         <a href="{{ '/a-propos/' | relative_url }}">À propos</a>
@@ -20,6 +21,7 @@
         <a href="{{ '/bibliographie/' | relative_url }}">Bibliographie</a>
         <a href="{{ '/avertissement-editorial/' | relative_url }}">Avertissement</a>
       </nav>
+      <div class="language-note">Chaque billet est publié en français et en anglais lorsque les deux versions sont disponibles. Le choix de langue se fait depuis l’index et depuis chaque article.</div>
     </div>
   </header>
 
@@ -28,7 +30,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">© Les Carnets du son de l’éternel — dépôt public de publication dérivée.</div>
+    <div class="wrap">© Fabrice Ribet — Les Carnets du son de l’éternel — carnet public de notes et d’études préparatoires.</div>
   </footer>
 </body>
 </html>
