@@ -4,12 +4,12 @@ lang: en
 index: false
 theme: "Son, production, instruments"
 title: "Peter Hook: when bad amplification invents a bass sound"
-date: 2026-05-15
+date: 2026-05-14
 description: "How a material constraint became one of Joy Division’s defining sonic signatures."
 tags: ["Joy Division", "Peter Hook", "bass", "post-punk", "sound"]
 format: "critical note"
 series: "Interzone Notes"
-translation_url: "/2026/05/15/peter-hook-mauvaise-amplification-invente-une-basse/"
+translation_url: "/2026/05/14/peter-hook-mauvaise-amplification-invente-une-basse/"
 rag_origin: "RAG 3 + RAG 4"
 source_status: "derived from the main RAG, manually checked"
 verification_status: "no direct quotations included; facts and testimonies to be checked before final publication"
