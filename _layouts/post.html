@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<article class="post-full">
+  <header class="post-header">
+    <p class="meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.format %} · {{ page.format }}{% endif %}{% if page.series %} · {{ page.series }}{% endif %}</p>
+    <h2>{{ page.title }}</h2>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+    {% if page.tags %}
+      <div class="taglist">
+        {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
