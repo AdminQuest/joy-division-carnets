@@ -1,6 +1,8 @@
 ---
 layout: post
 lang: en
+index: false
+theme: "Scènes fondatrices"
 title: "June 4, 1976: the concert that grew over time"
 date: 2026-05-14
 description: "How a modest punk concert became a founding scene in Manchester mythology, without explaining Joy Division on its own."
