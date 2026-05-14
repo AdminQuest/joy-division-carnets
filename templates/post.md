@@ -1,17 +1,20 @@
 ---
 layout: post
 lang: fr
+index: true
+primary_lang: true
+theme: "Thématique exacte"
 title: "Titre de l’article"
 date: 2026-05-14
 description: "Résumé court de l’article."
 tags: ["Joy Division", "Manchester", "post-punk"]
 format: "note critique"
-series: ""
+series: "Interzone Notes"
 related_chapters: []
 translation_url: "/2026/05/14/english-slug/"
 rag_origin: "RAG 3 + RAG 4"
 source_status: "issu du RAG principal, vérifié manuellement"
-verification_status: "à vérifier"
+verification_status: "contrôle interne effectué ; aucune mention de validation documentaire dans le texte public"
 image: "/public/images/nom-de-l-image.jpg"
 image_alt: "Description courte de l’image"
 image_caption: "Légende courte, source ou crédit à compléter."
@@ -20,35 +23,36 @@ draft: false
 
 # Titre de l’article
 
-## Chapeau
+Ouverture courte. Présenter l’objet du billet, le problème historiographique et la tension qui justifie l’article. Ne jamais mentionner ici la qualité des sources, le RAG, les statuts internes de preuve ou les opérations de vérification.
 
-Présenter en cinq à huit lignes l’objet de l’article, le problème historiographique et l’intérêt de la question.
+## Premier intertitre
 
-## 1. Le fait ou l’objet
+Développer le socle factuel et la première étape de l’argumentation. Les prudences documentaires doivent apparaître sous forme de prose critique naturelle : « les récits divergent », « la mémoire amplifie l’événement », « le témoignage reconstruit la scène après coup ». Ne jamais écrire : « source à vérifier », « citation à confirmer », « preuve faible », « statut non consolidé ».
 
-Établir le socle factuel minimal. Distinguer ce qui est documenté, ce qui relève du témoignage et ce qui relève d’une reconstruction ultérieure.
+## Deuxième intertitre
 
-## 2. Le problème historiographique
+Développer l’interprétation. Distinguer fait établi, témoignage rétrospectif, reconstruction mémorielle, interprétation critique et mythe, sans exposer les mécanismes internes du dépôt RAG.
 
-Expliquer pourquoi cet objet pose problème : mythe, contradiction, surinterprétation, fixation mémorielle, réduction biographique, téléologie.
+## Troisième intertitre éventuel
 
-## 3. Ce que les sources permettent vraiment de dire
+À utiliser seulement si l’argument le justifie. Un billet comporte entre 1 et 3 intertitres maximum.
 
-Mobiliser les éléments issus du dossier RAG 3. Ne pas introduire d’éléments non stabilisés.
+Conclusion brève et forte. Le texte doit ouvrir une lecture, non épuiser le sujet.
 
-## 4. Ce qu’il faut éviter de surinterpréter
+## Notes
 
-Signaler les limites, les incertitudes, les prudences et les points qui doivent retourner dans le dépôt principal si nécessaire.
+[^1]: Référence bibliographique complète à compléter.
 
-## Conclusion
-
-Conclure brièvement. L’article doit ouvrir une lecture, non épuiser le sujet.
-
-## Notes et références
-
-1. Référence à compléter.
+[^2]: Référence bibliographique complète à compléter.
 
 <!--
-Longueur cible : environ 5 000 caractères par langue.
-Pour la version anglaise, dupliquer ce fichier avec un slug anglais, remplacer lang: fr par lang: en et faire pointer translation_url vers la version française.
+Doctrine éditoriale Carnets :
+- Longueur cible : environ 7 500 caractères espaces compris par langue.
+- Prévoir 1 à 3 intertitres maximum.
+- Aucun commentaire sur la qualité des sources dans le corps du texte.
+- Aucune mention publique du RAG, des atomes, des statuts de preuve ou de la vérification documentaire.
+- Les réserves historiographiques sont intégrées naturellement dans la prose.
+- Les sources apparaissent uniquement en notes de bas de page Markdown.
+- Pas de références parenthétiques dans le corps du texte.
+- Pour la version anglaise, dupliquer ce fichier avec un slug anglais, remplacer lang: fr par lang: en, index: true par index: false, et faire pointer translation_url vers la version française.
 -->
