@@ -116,6 +116,30 @@ h3 { font-size: 1.25rem; margin-bottom: .35rem; }
 
 .post-card:first-of-type { border-top: 0; padding-top: .25rem; }
 
+.post-card-image-link {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.post-card-image,
+.post-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+}
+
+.post-hero {
+  margin: 0 0 1.6rem;
+}
+
+.post-hero figcaption {
+  color: var(--muted);
+  font-size: .9rem;
+  margin-top: .5rem;
+}
+
 .meta {
   color: var(--muted);
   font-size: .92rem;
