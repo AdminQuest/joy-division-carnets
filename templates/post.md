@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Titre de l’article"
 date: 2026-05-14
 description: "Résumé court de l’article."
@@ -9,7 +10,10 @@ related_chapters: []
 rag_origin: "RAG 3 + RAG 4"
 source_status: "issu du RAG principal, vérifié manuellement"
 verification_status: "à vérifier"
-draft: true
+image: "/public/images/nom-de-l-image.jpg"
+image_alt: "Description courte de l’image"
+image_caption: "Légende courte, source ou crédit à compléter."
+draft: false
 ---
 
 # Titre de l’article
