@@ -7,6 +7,17 @@ layout: default
     <p class="meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.format %} · {{ page.format }}{% endif %}{% if page.series %} · {{ page.series }}{% endif %}</p>
     <h2>{{ page.title }}</h2>
     {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+    {% if page.translation_url %}
+      <p class="translation-link">
+        {% if page.lang == "fr" %}
+          <a href="{{ page.translation_url | relative_url }}">Lire en anglais</a>
+        {% elsif page.lang == "en" %}
+          <a href="{{ page.translation_url | relative_url }}">Read in French</a>
+        {% else %}
+          <a href="{{ page.translation_url | relative_url }}">Version traduite</a>
+        {% endif %}
+      </p>
+    {% endif %}
     {% if page.tags %}
       <div class="taglist">
         {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
