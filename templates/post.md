@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: fr
 title: "Titre de l’article"
 date: 2026-05-14
 description: "Résumé court de l’article."
@@ -7,6 +8,7 @@ tags: ["Joy Division", "Manchester", "post-punk"]
 format: "note critique"
 series: ""
 related_chapters: []
+translation_url: "/2026/05/14/english-slug/"
 rag_origin: "RAG 3 + RAG 4"
 source_status: "issu du RAG principal, vérifié manuellement"
 verification_status: "à vérifier"
@@ -45,3 +47,8 @@ Conclure brièvement. L’article doit ouvrir une lecture, non épuiser le sujet
 ## Notes et références
 
 1. Référence à compléter.
+
+<!--
+Longueur cible : environ 5 000 caractères par langue.
+Pour la version anglaise, dupliquer ce fichier avec un slug anglais, remplacer lang: fr par lang: en et faire pointer translation_url vers la version française.
+-->
