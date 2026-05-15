@@ -53,10 +53,16 @@ One must also note, as Clinton Heylin underlines, that Ian Curtis does not atten
 The concert of 4 June 1976 is therefore neither the sole cause of Joy Division, nor an event without importance. It is a detonator within a social and cultural landscape already charged, whose significance has been amplified, sharpened and sometimes distorted by decades of retrospective accounts. The historian must work with this double status: real event and active myth, without confusing them.
 
 ¹ Jon Savage, This Searing Light, The Sun and Everything Else: Joy Division The Oral History, Faber & Faber, 2019, p. 34.
+
 ² Paul Morley, Joy Division: Piece by Piece, Plexus Publishing, 2008, p. 27.
+
 ³ On the general mechanisms of collective memory in musical contexts, see Paul Connerton, How Societies Remember, Cambridge University Press, 1989.
+
 ⁴ David Nolan, I Swear I Was There: The Gig That Changed the World, IMP Books, 2006, p. 8.
+
 ⁵ Peter Hook, Unknown Pleasures: Inside Joy Division, Simon & Schuster, 2012, p. 41.
+
 ⁶ Nick Crossley, Networks of Sound, Style and Subversion: The Punk and Post-Punk Worlds of Manchester, London, Liverpool and Sheffield, 1975-1980, Manchester University Press, 2015, p. 89.
+
 ⁷ Daniele De Luca, « The Sound and the Fury. Manchester, I Joy Division e la crisi sociopolitica dell'Inghilterra degli anni settanta », in Alfonso Amendola & Linda Barone (dir.), Our vision touched the sky — Fenomenologia dei Joy Division, Rogas, 2021, p. 45.
 ⁸ Clinton Heylin, From the Velvets to the Voidoids: The Birth of American Punk Rock, Penguin Books, 2005, p. 162.
