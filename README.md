@@ -7,11 +7,11 @@ Ce dépôt est le dépôt public de publication du projet **Les Carnets du son d
 Le principe directeur est simple :
 
 ```text
-repo RAG principal → forge documentaire
+repo RAG principal + manuscrit en cours → forge documentaire et argumentative
 repo Carnets → publication publique
 ```
 
-Le dépôt principal conserve les sources, les atomes, les relations, les registres, les exports et les documents maîtres. Le dépôt `joy-division-carnets` ne contient que les textes publiables, les brouillons éditoriaux, les pages du site et les éléments nécessaires à la diffusion.
+Le dépôt principal conserve les sources, les atomes, les relations, les registres, les exports et les documents maîtres. Le manuscrit en cours conserve les formulations, progressions et concepts déjà stabilisés dans les 14 chapitres du livre. Le dépôt `joy-division-carnets` ne contient que les textes publiables, les brouillons éditoriaux, les pages du site et les éléments nécessaires à la diffusion.
 
 ---
 
@@ -20,6 +20,17 @@ Le dépôt principal conserve les sources, les atomes, les relations, les regist
 Les Carnets ne fonctionnent pas comme un blog d’actualité. Ils constituent un carnet public de notes et d’études préparatoires en amont de la publication du livre *Joy Division, le son de l’éternel*.
 
 Chaque billet doit rester autonome, lisible, argumenté et relativement bref. Il ne doit jamais devenir un fragment brut du manuscrit.
+
+### Sources mobilisables
+
+Les billets peuvent mobiliser deux ensembles complémentaires :
+
+```text
+1. Le RAG principal : sources, atomes, relations, registres, citations et prudences documentaires.
+2. Les 14 chapitres du manuscrit en cours : formulations stabilisées, concepts, structures argumentatives, motifs et continuités stylistiques.
+```
+
+Le RAG demeure la source principale de preuve documentaire. Le manuscrit en cours sert de source de cohérence argumentative et stylistique. Les billets peuvent donc condenser, reformuler ou prolonger des analyses déjà présentes dans les chapitres, mais ils ne doivent jamais copier mécaniquement une section entière du livre ni en publier des fragments longs.
 
 ### Longueur
 
@@ -40,6 +51,36 @@ Les billets doivent comporter :
 - une conclusion brève et forte.
 
 Les intertitres servent à structurer une progression argumentative. Ils ne doivent jamais fragmenter artificiellement le texte.
+
+### Production bilingue
+
+Le prompt de rédaction doit générer systématiquement les deux versions dans une seule sortie, selon l’ordre suivant :
+
+```text
+1. Front matter français
+2. Texte français
+3. Front matter anglais
+4. Texte anglais
+```
+
+La version française est la version principale indexée. La version anglaise est masquée de l’index principal et reliée par le champ `translation_url`.
+
+Front matter français :
+
+```yaml
+layout: post
+lang: fr
+index: true
+primary_lang: true
+```
+
+Front matter anglais :
+
+```yaml
+layout: post
+lang: en
+index: false
+```
 
 ### Références et notes
 
@@ -98,7 +139,7 @@ Bon exemple :
 Les billets doivent :
 
 - être rédigés au présent ;
-- utiliser les guillemets français ;
+- utiliser les guillemets français dans les textes français ;
 - mettre les albums en italique ;
 - mettre les chansons entre guillemets ;
 - alterner phrases courtes et longues ;
@@ -122,7 +163,7 @@ Les billets doivent :
 
 Ce dépôt accueille des articles courts ou moyens sur Joy Division, Manchester, Factory Records, le post-punk, les bootlegs, les objets discographiques, les mythes historiographiques et les controverses documentaires.
 
-Il sert de vitrine publique au travail critique conduit dans le dépôt RAG principal. Il rend lisible une partie du travail sans exposer l’ensemble de l’infrastructure documentaire.
+Il sert de vitrine publique au travail critique conduit dans le dépôt RAG principal et dans le manuscrit en cours. Il rend lisible une partie du travail sans exposer l’ensemble de l’infrastructure documentaire.
 
 Il permet aussi de tester publiquement certains angles du futur livre : hypothèses, scènes fondatrices, objets, concepts, prudences, contre-mythes.
 
