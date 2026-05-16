@@ -29,9 +29,13 @@ Ouverture courte. Présenter l’objet du billet, le problème historiographique
 
 Développer le socle factuel et la première étape de l’argumentation. Les prudences documentaires doivent apparaître sous forme de prose critique naturelle : « les récits divergent », « la mémoire amplifie l’événement », « le témoignage reconstruit la scène après coup ». Ne jamais écrire : « source à vérifier », « citation à confirmer », « preuve faible », « statut non consolidé ».
 
+Respecter strictement la typographie française : guillemets français, espaces avant les signes doubles, titres de livres et d’albums en italiques, chansons entre guillemets.
+
 ## Deuxième intertitre
 
 Développer l’interprétation. Distinguer fait établi, témoignage rétrospectif, reconstruction mémorielle, interprétation critique et mythe, sans exposer les mécanismes internes du dépôt RAG.
+
+La version anglaise doit respecter la typographie anglaise : guillemets anglais, absence d’espaces avant les signes doubles, conservation des italiques pour livres et albums.
 
 ## Troisième intertitre éventuel
 
@@ -47,12 +51,15 @@ Conclusion brève et forte. Le texte doit ouvrir une lecture, non épuiser le su
 
 <!--
 Doctrine éditoriale Carnets :
-- Longueur cible : environ 7 500 caractères espaces compris par langue.
+- Longueur cible : environ 10 000 caractères espaces compris par langue.
 - Prévoir 1 à 3 intertitres maximum.
 - Aucun commentaire sur la qualité des sources dans le corps du texte.
 - Aucune mention publique du RAG, des atomes, des statuts de preuve ou de la vérification documentaire.
 - Les réserves historiographiques sont intégrées naturellement dans la prose.
 - Les sources apparaissent uniquement en notes de bas de page Markdown.
 - Pas de références parenthétiques dans le corps du texte.
+- Respect impératif des règles typographiques françaises et anglaises.
+- Livres et albums en italiques.
+- Chansons entre guillemets.
 - Pour la version anglaise, dupliquer ce fichier avec un slug anglais, remplacer lang: fr par lang: en, index: true par index: false, et faire pointer translation_url vers la version française.
 -->
