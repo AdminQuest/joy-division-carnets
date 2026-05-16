@@ -37,8 +37,10 @@ Le RAG demeure la source principale de preuve documentaire. Le manuscrit en cour
 La longueur cible est désormais :
 
 ```text
-Environ 7 500 caractères espaces compris par langue.
+Environ 10 000 caractères espaces compris par langue.
 ```
+
+Cette longueur est une cible éditoriale, non une contrainte mécanique. Un billet peut être légèrement plus court ou plus long si l’argument l’exige, mais il doit rester un article autonome, non un chapitre déguisé.
 
 Chaque billet existe idéalement en français et en anglais.
 
@@ -134,18 +136,38 @@ Bon exemple :
 « La mémoire de scène tend ensuite à amplifier l’événement. »
 ```
 
-### Style
+### Style et typographie
 
 Les billets doivent :
 
 - être rédigés au présent ;
-- utiliser les guillemets français dans les textes français ;
-- mettre les albums en italique ;
-- mettre les chansons entre guillemets ;
+- respecter les consignes typographiques françaises dans les textes français ;
+- respecter les consignes typographiques anglaises dans les textes anglais ;
+- utiliser les guillemets français dans les textes français : « … » ;
+- utiliser les guillemets anglais dans les textes anglais : “…” ;
+- respecter les espaces insécables ou fines devant les signes doubles en français : deux-points, point-virgule, point d’interrogation, point d’exclamation ;
+- ne pas ajouter d’espace avant les signes doubles en anglais ;
+- mettre les titres de livres en italique ;
+- mettre les titres d’albums en italique ;
+- mettre les titres de chansons entre guillemets ;
 - alterner phrases courtes et longues ;
 - éviter les tricolons mécaniques ;
 - éviter les formulations journalistiques ou sensationnalistes ;
 - conserver une prose académique, nerveuse et lisible.
+
+Exemples :
+
+```markdown
+Peter Hook publie *Unknown Pleasures: Inside Joy Division* en 2012.
+Joy Division enregistre *Unknown Pleasures* en 1979.
+Le morceau « Transmission » ne fonctionne pas comme une simple survivance punk.
+```
+
+```markdown
+Peter Hook publishes *Unknown Pleasures: Inside Joy Division* in 2012.
+Joy Division records *Unknown Pleasures* in 1979.
+The song “Transmission” does not work as a mere punk survival.
+```
 
 ### Règles historiographiques
 
