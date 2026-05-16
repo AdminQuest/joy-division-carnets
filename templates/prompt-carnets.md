@@ -22,7 +22,7 @@ Le manuscrit sert de source de cohérence argumentative, stylistique et conceptu
 ### Longueur
 
 ```text
-Environ 7 500 caractères espaces compris par langue.
+Environ 10 000 caractères espaces compris par langue.
 ```
 
 ### Structure
@@ -38,8 +38,14 @@ Les intertitres structurent l’argumentation. Ils ne doivent jamais fragmenter 
 - écrire au présent ;
 - prose académique, nerveuse et lisible ;
 - alterner phrases courtes et longues ;
-- utiliser les guillemets français dans le texte français ;
-- mettre les albums en italique ;
+- respecter les consignes typographiques françaises dans les textes français ;
+- respecter les consignes typographiques anglaises dans les textes anglais ;
+- utiliser les guillemets français dans les textes français : « … » ;
+- utiliser les guillemets anglais dans les textes anglais : “…” ;
+- respecter les espaces typographiques françaises avant les signes doubles ;
+- ne jamais appliquer ces espaces aux textes anglais ;
+- mettre les titres de livres en italique ;
+- mettre les titres d’albums en italique ;
 - mettre les chansons entre guillemets ;
 - éviter les formulations journalistiques ou sensationnalistes ;
 - éviter les tricolons mécaniques.
