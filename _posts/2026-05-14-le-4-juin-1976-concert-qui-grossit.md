@@ -19,7 +19,7 @@ image_alt: "Vue du Lesser Free Trade Hall à Manchester"
 image_caption: "Lesser Free Trade Hall, Manchester. Crédit à compléter."
 ---
 
-## Le concert des Sex Pistols au Lesser Free Trade Hall le 4 juin 1976 est, dans l'historiographie de la musique britannique, un événement singulièrement paradoxal : une soirée confidentielle que personne ou presque ne remarque sur le moment, et qui se transforme rétrospectivement en scène primitive d'une révolution culturelle. Comprendre ce paradoxe, c'est comprendre quelque chose de fondamental sur la manière dont le mythe Joy Division se construit — et sur la prudence intellectuelle qu'exige l'analyse de ces années mancuniennes.
+Le concert des Sex Pistols au Lesser Free Trade Hall le 4 juin 1976 est, dans l'historiographie de la musique britannique, un événement singulièrement paradoxal : une soirée confidentielle que personne ou presque ne remarque sur le moment, et qui se transforme rétrospectivement en scène primitive d'une révolution culturelle. Comprendre ce paradoxe, c'est comprendre quelque chose de fondamental sur la manière dont le mythe Joy Division se construit — et sur la prudence intellectuelle qu'exige l'analyse de ces années mancuniennes.
 
 ## Une soirée modeste, une salle à moitié vide
 
