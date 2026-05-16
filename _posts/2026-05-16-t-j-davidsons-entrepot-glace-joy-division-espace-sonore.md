@@ -1,4 +1,3 @@
-```yaml
 ---
 layout: post
 lang: fr
@@ -19,7 +18,6 @@ image: "/public/images/tj-davidsons.jpg"
 image_alt: "Ancien espace industriel associé à T. J. Davidson’s, Little Peter Street, Manchester"
 image_caption: "Little Peter Street, Manchester. Crédit à compléter."
 ---
-```
 
 # T. J. Davidson’s : l’entrepôt glacé où Joy Division invente son espace sonore
 
@@ -88,25 +86,3 @@ T. J. Davidson’s reste alors moins une origine qu’une chambre d’écho. Un 
 [^5]: Mick Middles, *From Joy Division to New Order*, Londres, Virgin Books, 1996.
 
 [^6]: Mick Middles et Lindsay Reade, *Torn Apart: The Life of Ian Curtis*, Londres, Omnibus Press, 2006.
-
-```yaml
----
-layout: post
-lang: en
-index: false
-theme: "Manchester, Salford, territory"
-title: "T. J. Davidson’s: the frozen warehouse where Joy Division invents its sound space"
-date: 2026-05-16
-description: "How an industrial rehearsal space in Little Peter Street gradually becomes a sonic, visual and emotional matrix for Joy Division."
-tags: ["Joy Division", "Manchester", "T. J. Davidson’s", "Factory", "post-punk"]
-format: "critical note"
-series: "Interzone Notes"
-translation_url: "/2026/05/16/t-j-davidsons-entrepot-glace-joy-division-espace-sonore/"
-rag_origin: "RAG 4"
-source_status: "derived from the main RAG and the draft manuscript"
-verification_status: "internal check completed; no documentary validation note appears in the public text"
-image: "/public/images/tj-davidsons.jpg"
-image_alt: "Former industrial rehearsal space associated with T. J. Davidson’s, Little Peter Street, Manchester"
-image_caption: "Little Peter Street, Manchester. Credit to be completed."
----
-
